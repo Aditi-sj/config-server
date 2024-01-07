@@ -15,19 +15,19 @@ spring:
                     allowedHeaders: "*"
             routes:
             - id: UserDetails-Microservice
-              uri: lb://UserDetails-Microservice
+              uri: lb://aditiuserdetails
               predicates:
               - Path= /users/**
             - id: Book-service
-              uri: lb://Book-service
+              uri: lb://aditibooks
               predicates:
               - Path= /books/**
             - id: Whislist-service
-              uri: lb://Whislist-service
+              uri: lb://aditiwhislist
               predicates:
               - Path= /fav/**
             - id: Authorization
-              uri: lb://Authorization
+              uri: lb://aditi_auth
               predicates:
               - Path= /auth/**
             
