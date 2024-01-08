@@ -15,19 +15,19 @@ spring:
                     allowedHeaders: "*"
             routes:
             - id: UserDetails-Microservice
-              uri: http://35.93.50.210:8082
+              uri: http://54.88.205.130:8082
               predicates:
               - Path= /users/**
             - id: Book-service
-              uri: http://35.87.49.136:5050
+              uri: http://23.21.10.104:5050
               predicates:
               - Path= /books/**
             - id: Whislist-service
-              uri: http://18.236.102.202:8083 
+              uri: http://184.73.7.4:8083 
               predicates:
               - Path= /fav/**
             - id: Authorization
-              uri: http://18.215.167.96:8000
+              uri: http://54.88.205.130:8000
               predicates:
               - Path= /auth/**
             
