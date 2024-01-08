@@ -39,6 +39,6 @@ eureka:
         register-with-eureka: true
         fetch-registry: true
         service-url:
-            defaultZone: http://34.201.101.226:8761/eureka/
+            defaultZone: http://174.129.184.236:8761/eureka/
     instance:
         hostname: aditi_eurekaserver
