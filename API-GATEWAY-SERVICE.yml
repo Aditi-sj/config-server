@@ -27,7 +27,7 @@ spring:
               predicates:
               - Path= /fav/**
             - id: Authorization
-              uri: http://54.88.205.130:8000
+              uri: http://107.20.52.241:8000
               predicates:
               - Path= /auth/**
             
